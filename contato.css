@@ -1,0 +1,78 @@
+body {
+    background: #252527e0; 
+    color: #c97911e0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo {
+    width: 150px;
+    height: 150px;
+}
+
+section {
+    padding: 120px 50px; 
+    text-align: center;
+    background-image: url('backcnt2.jpg');
+    background-size: cover;
+}
+
+section h2 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px; 
+}
+
+.contact-item {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: #ffd700; 
+}
+
+h3 {
+    font-size: 2.5em;
+    margin: 30px 0; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.map-container iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
